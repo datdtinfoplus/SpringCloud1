@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/datdtinfoplus/SpringCloud1.git
+          search-paths: SpringCloud1
+#          username:
+#          password:
+#          uri: C:/Users/stackjava/Desktop/spring-cloud-config-server-repo
